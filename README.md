@@ -1,5 +1,5 @@
 # Gastro Total — revisión dinámica
-Sitio en español del Dr. Humberto Cordero, guardado sin publicación. Frontend HTML/CSS/JavaScript, sin compilación, cuentas, pagos ni base de datos.
+Sitio web informativo del Dr. Humberto Cordero, desarrollado con HTML, CSS y JavaScript y publicado mediante GitHub Pages.
 
 ## Abrir
 - `Gastro_Total.html` es la entrega autónoma: descargar y abrir con Chrome. Incluye los estilos, el código y las imágenes en el mismo archivo.
