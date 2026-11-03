@@ -50,3 +50,168 @@ Fuentes: gnp.com.mx, axa.mx, metlife.com.mx, mnyl.com.mx, mapfre.com.mx, allianz
 
 
 Actualización 3 de noviembre de 2026: sección completa #pagos reubicada después de Cómo podemos ayudarte y antes de cirugía bariátrica. Acceso breve en portada debajo de los botones principales.
+
+
+## Herramientas utilizadas
+
+- ChatGPT y Codex: apoyo para planificar el sitio, generar y modificar código, redactar contenido y revisar el funcionamiento.
+- Generación de imágenes con IA: creación de ilustraciones conceptuales e iconos decorativos 3D.
+- HTML5: estructura y contenido.
+- CSS3: diseño visual, adaptación a pantallas y animaciones.
+- JavaScript: filtros, ventanas de detalle, carruseles, trayectoria automática y preparación de mensajes para WhatsApp.
+- GitHub: almacenamiento del código y control de versiones.
+- GitHub Pages: publicación del sitio.
+- Google Fonts: tipografías.
+- Instagram: publicaciones insertadas y enlaces alternativos.
+- Simple Icons: glifos reconocibles de redes sociales y Mercado Pago.
+
+## Prompt completo consolidado
+
+El siguiente prompt reúne las instrucciones principales y las modificaciones aprobadas durante el desarrollo iterativo del proyecto.
+
+> Actúa como especialista en diseño UI/UX y desarrollo frontend. Crea un sitio web en español para Gastro Total y el Dr. Humberto Cordero, enfocado en cirugía bariátrica, control de peso y atención de enfermedades digestivas.
+>
+> El objetivo es explicar las opciones de atención de manera comprensible, presentar la experiencia del especialista y facilitar que los pacientes soliciten una valoración por WhatsApp.
+>
+> Desarrolla el proyecto con HTML, CSS y JavaScript. Organiza los archivos en index.html, style.css, app.js, motion.js y una carpeta assets para imágenes y recursos. Debe funcionar como sitio estático y poder publicarse mediante GitHub Pages.
+>
+> DISEÑO GENERAL
+>
+> Utiliza un diseño moderno con fondo oscuro, tonos azules y acentos cian, coherente con la identidad de Gastro Total. Mantén contraste legible, espacios amplios, botones visibles y adaptación a celulares, tabletas y computadoras.
+>
+> Integra el logo proporcionado con el fondo de la página. Utiliza imágenes optimizadas y conserva las proporciones originales. Difumina suavemente los bordes de las fotografías de presentación para integrarlas con el fondo, manteniendo nítidos los rostros y el contenido central.
+>
+> Utiliza textos claros para pacientes. Evita promesas de resultados garantizados y explica que la elección del tratamiento requiere valoración médica.
+>
+> BIENVENIDA TEMPORAL
+>
+> Antes del contenido, muestra brevemente el logo oficial de Gastro Total sobre fondo azul, con una animación de aparición. La bienvenida debe cerrarse automáticamente aproximadamente a los dos segundos y permitir omitirla. Nunca debe bloquear el acceso al sitio.
+>
+> PORTADA
+>
+> Presenta al Dr. Humberto Cordero con la fotografía proporcionada y el mensaje “Tu salud merece un plan personalizado”.
+>
+> Explica que se ofrece cirugía bariátrica, control de peso y atención digestiva en Guadalajara y Chiapas. Incluye botones para agendar valoración y explorar tratamientos.
+>
+> Debajo de los botones principales, agrega una franja compacta que anuncie tarjetas, transferencia, Mercado Pago y convenios con aseguradoras. Incluye el enlace “Conoce tus opciones de pago”, que lleve a la sección completa de pagos.
+>
+> EXPERIENCIA
+>
+> Presenta los datos proporcionados:
+> - Más de 10 años de experiencia.
+> - Más de 1,300 cirugías generales.
+> - Más de 3,500 endoscopias digestivas.
+> - Más de 2,000 cirugías bariátricas.
+>
+> CÓMO PODEMOS AYUDARTE
+>
+> Incluye accesos para quienes quieren bajar de peso, conocer la cirugía bariátrica o buscar atención digestiva.
+>
+> “Busco atención digestiva” debe llevar a una sección que explique en lenguaje sencillo qué es una consulta por enfermedades digestivas.
+>
+> PAGOS Y ASEGURADORAS
+>
+> Coloca esta sección inmediatamente después de “¿Cómo podemos ayudarte?” y antes de cirugía bariátrica, para que se encuentre entre las primeras secciones.
+>
+> Muestra efectivo, transferencia, tarjeta de débito, tarjeta de crédito y Mercado Pago. Utiliza iconos decorativos 3D para los métodos de pago y el glifo reconocible de Mercado Pago sin fondo.
+>
+> Incluye meses sin intereses con tarjetas participantes y financiamiento con Mend. No inventes tasas, plazos ni condiciones.
+>
+> Coloca el texto “Contamos con convenios con todas las aseguradoras”, confirmado por la clínica. Presenta logos reconocibles de GNP, AXA, MetLife, Seguros Monterrey New York Life, MAPFRE y Allianz, conservando sus proporciones y colores.
+>
+> Añade la aclaración: “La atención está sujeta a la cobertura de tu póliza y autorización de la aseguradora”.
+>
+> Incluye botones para consultar opciones de pago y cobertura por WhatsApp. La página será informativa y no procesará pagos.
+>
+> CIRUGÍA BARIÁTRICA Y CONTROL DE PESO
+>
+> Antes de la sección digestiva, coloca una sección destacada con texto a la izquierda y carrusel automático a la derecha.
+>
+> Explica que la cirugía bariátrica es una alternativa para pacientes seleccionados y que la valoración permite determinar el procedimiento adecuado.
+>
+> Presenta manga gástrica, bypass gástrico y opciones sin cirugía. En estas últimas incluye balón intragástrico y tratamiento médico con medicamentos peptídicos, según valoración y bajo supervisión médica.
+>
+> Usa las cuatro piezas proporcionadas, con bordes exteriores suavemente integrados al fondo. Conserva controles manuales y de pausa.
+>
+> CONSULTA POR ENFERMEDADES DIGESTIVAS
+>
+> Coloca la imagen de presentación a la izquierda y el texto a la derecha para alternar la distribución con la sección anterior.
+>
+> Explica que la consulta evalúa molestias del esófago, estómago e intestino mediante revisión de síntomas y antecedentes, y permite orientar el tratamiento o los estudios necesarios.
+>
+> Menciona motivos de consulta como acidez, reflujo, dolor o distensión abdominal, molestias por gastritis, diarrea persistente, cambios al evacuar y colon irritable. Aclara que no todas las molestias requieren cirugía.
+>
+> OPCIONES DE ATENCIÓN
+>
+> Presenta nueve servicios con filtros, descripción breve, ilustración conceptual 3D y acceso a mayor información:
+> - Manga gástrica: $85,000 MXN.
+> - Bypass gástrico: según valoración.
+> - Balón intragástrico Allurion: $51,000 MXN.
+> - Balón intragástrico SPATZ3: $45,000 MXN.
+> - Endoscopia digestiva alta: consultar costo.
+> - Funduplicatura: consultar costo.
+> - Colecistectomía: consultar costo.
+> - Cirugía de hernia inguinal: consultar costo.
+> - Cirugía de hernia umbilical: consultar costo.
+>
+> Las imágenes 3D deben ser diferentes para cada servicio y presentarse como ilustraciones conceptuales, no como representaciones quirúrgicas exactas. No inventes inclusiones ni condiciones de los precios.
+>
+> CONOCE AL DOCTOR
+>
+> Presenta la información profesional proporcionada, sus cédulas y formación. Utiliza las siete fotografías suministradas en un carrusel automático con transición suave, flechas, indicadores, pausa y navegación táctil.
+>
+> En “Experiencia que construye confianza”, muestra automáticamente cada año y su información correspondiente aproximadamente cada cinco segundos. Permite también selección manual y pausa. Conserva los datos proporcionados sin inventar certificaciones.
+>
+> TESTIMONIOS Y VIDEOS
+>
+> Incluye “El doctor te explica” con las publicaciones de Instagram proporcionadas sobre manga gástrica y opciones para el control de peso.
+>
+> Añade testimonios, incluyendo el de Eloisa, mediante las publicaciones suministradas. Conserva enlaces alternativos para abrirlos en Instagram.
+>
+> Crea un carrusel automático con los siete casos de antes y después, con avance aproximado cada seis segundos, controles manuales, pausa y visor para ampliar. Muestra dos casos en escritorio y uno en celular.
+>
+> Conserva las comparaciones originales completas, sin retoques corporales ni recortes que alteren su interpretación. Aclara que son experiencias individuales y los resultados pueden variar.
+>
+> CONSULTAS Y SEDES
+>
+> Muestra consulta presencial de $1,000 MXN y consulta en línea de $800 MXN.
+>
+> Presenta Guadalajara y las ciudades de Chiapas: Tuxtla Gutiérrez, San Cristóbal de Las Casas, Tapachula y Ocosingo. Utiliza la información y los enlaces de ubicación proporcionados; permite consultar disponibilidad por ciudad.
+>
+> CONTACTO Y PREGUNTAS FRECUENTES
+>
+> Incluye preguntas frecuentes sobre valoración, consultas, sedes, procedimientos, seguimiento y pagos.
+>
+> Agrega un formulario que solicite nombre, modalidad, ciudad y área de interés. Al continuar, prepara un mensaje para WhatsApp al número +52 33 1572 2352.
+>
+> El usuario debe poder revisar y enviar el mensaje. Abrir WhatsApp no debe enviar mensajes automáticamente ni confirmar una cita.
+>
+> Coloca botones de Instagram y Facebook con sus logos reconocibles y enlaces proporcionados.
+>
+> ANIMACIÓN Y ACCESIBILIDAD
+>
+> Haz que los textos, tarjetas e imágenes aparezcan suavemente al desplazarse. Mantén el contenido accesible si las animaciones no se ejecutan.
+>
+> Respeta la preferencia de movimiento reducido. Incluye nombres accesibles, navegación por teclado y controles para pausar las secuencias automáticas. Pausa la reproducción cuando la pestaña esté oculta.
+>
+> VALIDACIÓN Y ENTREGA
+>
+> Comprueba la navegación, los botones, las imágenes, los filtros, las ventanas de detalle y los carruseles. Revisa que no exista desbordamiento horizontal en pantallas pequeñas.
+>
+> Conserva los recursos y datos aprobados. No inventes documentos legales, certificaciones ni resultados clínicos.
+>
+> Entrega el código completo y documenta el proyecto en README.md, incluyendo descripción, herramientas utilizadas, prompts, instrucciones de uso y URL pública.
+
+## URL pública
+
+Pega aquí el enlace exacto que aparece en:
+Settings → Pages → Visit site.
+
+## Ejecución local
+
+1. Descarga el repositorio mediante Code → Download ZIP.
+2. Descomprime el archivo.
+3. Abre index.html en un navegador.
+4. Conserva en la misma ubicación style.css, app.js, motion.js y la carpeta assets.
+
+Se requiere conexión a internet para cargar servicios externos como Google Fonts e Instagram y para abrir WhatsApp, Maps y redes sociales.
