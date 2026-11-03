@@ -205,7 +205,7 @@ El siguiente prompt reúne las instrucciones principales y las modificaciones ap
 ## URL pública
 
 Pega aquí el enlace exacto que aparece en:
-Settings → Pages → Visit site.
+[Settings → Pages → Visit site.](https://susanacruzsz.github.io/Gastro_Total-_Pagina_web/)
 
 ## Ejecución local
 
